@@ -108,7 +108,7 @@ path_no_scorte = st.sidebar.file_uploader('Caricare il file "NO SCORTE"')
 if not path_no_scorte:
     st.warning('File "NO SCORTE" non caricato')
     st.stop()
-df_no_scorte = pd.read_excel(path_si_scorte)
+df_no_scorte = pd.read_excel(path_no_scorte)
 df_no_scorte.drop(columns=['Ore prima','Ordine simulato', 'Potenziale medio ore','Ore oltre','Numero addetti'], inplace=True)
 
 # Esecuzione =============================================================================================================================

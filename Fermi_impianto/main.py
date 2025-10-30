@@ -22,7 +22,7 @@ with int_sx:
     st.title('Dashboard fermi impianto')
 st.divider()
 with int_dx:
-    st.image('logo.png')
+    st.image('https://github.com/alessandrobelluco/Guardini/blob/main/Pianificazione/logo.png?raw=True')
 
 
 #Configurazione

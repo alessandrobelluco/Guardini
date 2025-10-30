@@ -1,12 +1,6 @@
-# indagare se possibile inserire un riferimento al mese in base al numero settimana
-
-
 import streamlit  as st 
 import pandas as pd 
 import numpy as np 
-import datetime as dt
-import plotly_express as px
-import plotly.graph_objects as go
 from io import BytesIO
 
 

@@ -11,7 +11,7 @@ with int_sx:
     st.title('Carico macchine')
 st.divider()
 with int_dx:
-    st.image('logo.png')
+    st.image('https://github.com/alessandrobelluco/Guardini/blob/main/Pianificazione/logo.png?raw=True')
 
 
 #Funzioni
